@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { Form, Button, Card } from "react-bootstrap";
-import { useNavigate, Link } from "react-router-dom";
+import { Form, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Login = () => {
   const [userName, setUserName] = useState("");  
   const [password, setPassword] = useState("");
-  const navigate = useNavigate();
   const [error, setError] = useState(null);
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -20,7 +20,6 @@ const Login = () => {
       const { token, role } = response.data;
       sessionStorage.setItem("token", token);
       sessionStorage.setItem("role", role);
-      console.log(role);
 
       if (role === "Admin") {
         navigate("/admin");
@@ -30,75 +29,116 @@ const Login = () => {
         navigate("/instructor");
       } else if (role === "Student") {
         navigate("/student");
-      }
-      else {
+      } else {
         setError("Invalid role assigned.");
       }
-
     } catch (err) {
       setError("Invalid credentials");
     }
   };
 
   return (
-  <div style={{ backgroundColor: "#1A314A", minHeight: "100vh" }} className="d-flex justify-content-center align-items-center">
-    <Card
-      className="p-4"
+    <div
       style={{
-        width: "300px",
-        backgroundColor: "#f0f0f0",
-        boxShadow: "0 4px 8px rgba(0,0,0,0.1)",
-        borderRadius: "10px"
+        backgroundImage: "url('/logos/background.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        minHeight: "100vh",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
       }}
     >
-      <Card.Body className="text-center">
-        <Card.Title as="h2">Class Pulse</Card.Title>
+      <div
+        style={{
+          width: "350px",
+          padding: "30px",
+          borderRadius: "20px",
+          background: "rgba(255, 255, 255, 0.1)",
+          backdropFilter: "blur(12px)",
+          WebkitBackdropFilter: "blur(12px)", 
+          boxShadow: "0 8px 30px rgba(0,0,0,0.3)",
+          color: "white",
+          textAlign: "center"
+        }}
+      >
+        
+        <img
+         src="/logos/finalbg.png"
+  alt="ClassPulse Logo"
+  style={{
+          width: "120px",
+          height: "120px",         
+          marginBottom: "15px",
+          backgroundColor: "rgba(255, 255, 255, 0.2)", 
+          borderRadius: "50%",             
+          boxShadow: "0 4px 15px rgba(0,0,0,0.3)", 
+          objectFit: "cover"     
+  }}
+        />
+
+        <h3 style={{ marginBottom: "20px" }}>Welcome Back</h3>
+
         <Form onSubmit={handleLogin}>
-          <Form.Group className="mb-3" controlId="formBasicUserName">
-            <Form.Label>Username</Form.Label>
+          <Form.Group className="mb-3">
             <Form.Control
               type="text"
-              placeholder="Enter your username"
+              placeholder="Username"
               value={userName}
               onChange={(e) => setUserName(e.target.value)}
               required
+              style={{
+                borderRadius: "12px",
+                padding: "12px",
+                border: "none"
+              }}
             />
           </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Password</Form.Label>
+          <Form.Group className="mb-3">
             <Form.Control
               type="password"
-              placeholder="Enter your password"
+              placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
+              style={{
+                borderRadius: "12px",
+                padding: "12px",
+                border: "none"
+              }}
             />
           </Form.Group>
 
           <Button
-            variant="primary"
             type="submit"
             className="w-100"
-            style={{ backgroundColor: "#1A314A", border: "none" }}
+            style={{
+              borderRadius: "12px",
+              padding: "10px",
+              backgroundColor: "#1A314A",
+              border: "none",
+              fontWeight: "bold"
+            }}
           >
             Login
           </Button>
 
-          {/* Forgot Password link */}
           <div className="mt-3">
-            <a href="/forgot-password" className="text-decoration-none" style={{ color: "#1A314A", fontSize: "14px" }}>
+            <a
+              href="/forgot-password"
+              className="text-decoration-none"
+              style={{ color: "#fff", fontSize: "14px" }}
+            >
               Forgot Password?
             </a>
           </div>
         </Form>
 
         {error && <p className="text-danger mt-2">{error}</p>}
-      </Card.Body>
-    </Card>
-  </div>
-);
-
+      </div>
+    </div>
+  );
 };
 
 export default Login;
