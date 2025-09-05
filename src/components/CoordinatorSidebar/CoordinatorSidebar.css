@@ -1,0 +1,109 @@
+/* Sidebar Container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #152c44;
+  color: white;
+  padding: 15px;
+  overflow-y: auto;
+  transition: width 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.sidebar.closed {
+  width: 70px;
+  overflow: hidden;
+}
+
+/* Toggle button */
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Navigation links */
+.nav-link, .home-btn, .dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  color: white;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.nav-link:hover, .dropdown-toggle:hover, .home-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* When sidebar is closed, justify content to end for icons only */
+.sidebar.closed .nav-link,
+.sidebar.closed .home-btn,
+.sidebar.closed .dropdown-toggle {
+  justify-content: flex-end;
+  padding: 10px 15px;
+}
+
+/* Remove default dropdown toggle arrow */
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+
+.dropdown-menu {
+  background-color: #152c44 !important;
+  border: none;
+  position: relative !important;
+  width: 100%;
+  display: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+/* Dropdown items */
+.dropdown-item {
+  color: white !important;
+  padding: 10px 20px;
+  background-color: #152c44 !important;
+  border: none;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white !important;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  right: -5px;
+  transition: all 0.3s ease-in-out;
+  justify-content: center;
+}
+
