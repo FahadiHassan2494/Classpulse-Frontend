@@ -26,7 +26,6 @@ import ViewAssignedCourses from "../pages/Coordinator/ViewAssignedCourses";
 import EnrollStudents from "../pages/Coordinator/EnrollStudents";
 import ViewEnrolledStudents from "../pages/Coordinator/ViewEnrolledStudents";
 import PromoteStudents from "../pages/Coordinator/PromoteStudents";
-
 import InstructorDashboard from "../pages/instructor/InstructorDashboard";
 import TeacherCourses from "../pages/instructor/TeacherCourses";
 import AdminLayout from "../Layouts/AdminLayout";
@@ -37,7 +36,7 @@ import StudentLayout from "../Layouts/StudentLayout";
 import StudentDashboard from "../pages/Student/StudentDashboard";
 import MyCourses from "../pages/Student/MyCourses";
 import MyTeachers from "../pages/Student/MyTeachers";
-
+import Classroom from "./pages/Instructor/Classroom";
 const AppRoutes = () => {
   return (
     <Router>
@@ -83,6 +82,7 @@ const AppRoutes = () => {
             <Route path="/instructor/teacher-courses" element={<TeacherCourses />} />
             <Route path="/instructor/change-password" element={<ChangePassword />} />
              <Route path="/instructor/students" element={<StudentList />} />
+             <Route path="/classroom" element={<Classroom />} />
 
           </Route>
           <Route element={<StudentLayout />}>
