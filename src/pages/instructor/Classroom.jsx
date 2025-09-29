@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 const Classroom = () => {
   const videoRef = useRef(null);
+  const streamRef = useRef(null); // store active stream
   const [cameraOn, setCameraOn] = useState(false);
 
   useEffect(() => {
@@ -9,6 +10,7 @@ const Classroom = () => {
       navigator.mediaDevices
         .getUserMedia({ video: true, audio: false })
         .then((stream) => {
+          streamRef.current = stream; // save stream so we can stop it later
           if (videoRef.current) {
             videoRef.current.srcObject = stream;
           }
@@ -16,6 +18,15 @@ const Classroom = () => {
         .catch((err) => {
           console.error("Camera permission denied:", err);
         });
+    } else {
+      // stop camera stream when turned off
+      if (streamRef.current) {
+        streamRef.current.getTracks().forEach((track) => track.stop());
+        streamRef.current = null;
+      }
+      if (videoRef.current) {
+        videoRef.current.srcObject = null;
+      }
     }
   }, [cameraOn]);
 
@@ -55,7 +66,7 @@ const Classroom = () => {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+              gridTemplateColumns: "repeat(6, 1fr))",
               gap: "10px",
               marginTop: "10px",
             }}
@@ -63,6 +74,10 @@ const Classroom = () => {
             <div style={studentBox}>Student 1</div>
             <div style={studentBox}>Student 2</div>
             <div style={studentBox}>Student 3</div>
+             <div style={studentBox}>Student 4</div>
+            <div style={studentBox}>Student 5</div>
+            <div style={studentBox}>Student 6</div>
+          
           </div>
         </div>
 
