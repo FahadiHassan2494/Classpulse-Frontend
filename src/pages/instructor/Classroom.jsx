@@ -1,6 +1,24 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const Classroom = () => {
+  const videoRef = useRef(null);
+  const [cameraOn, setCameraOn] = useState(false);
+
+  useEffect(() => {
+    if (cameraOn) {
+      navigator.mediaDevices
+        .getUserMedia({ video: true, audio: false })
+        .then((stream) => {
+          if (videoRef.current) {
+            videoRef.current.srcObject = stream;
+          }
+        })
+        .catch((err) => {
+          console.error("Camera permission denied:", err);
+        });
+    }
+  }, [cameraOn]);
+
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100vh", backgroundColor: "#f5f6fa" }}>
       {/* Main Area */}
@@ -17,9 +35,20 @@ const Classroom = () => {
               alignItems: "center",
               color: "white",
               fontSize: "18px",
+              position: "relative",
             }}
           >
-            Instructor Video Stream
+            {cameraOn ? (
+              <video
+                ref={videoRef}
+                autoPlay
+                playsInline
+                muted
+                style={{ width: "100%", height: "100%", borderRadius: "10px", objectFit: "cover" }}
+              />
+            ) : (
+              "Instructor Video Stream"
+            )}
           </div>
 
           {/* Participant Grid */}
@@ -64,16 +93,16 @@ const Classroom = () => {
           gap: "30px",
         }}
       >
+        <button style={controlBtn} onClick={() => setCameraOn((prev) => !prev)}>
+          <i className="bi bi-camera-video"></i> {cameraOn ? "Stop Camera" : "Start Camera"}
+        </button>
         <button style={controlBtn}>
           <i className="bi bi-mic-mute"></i> Mute
         </button>
         <button style={controlBtn}>
-          <i className="bi bi-camera-video-off"></i> Stop Video
-        </button>
-        <button style={controlBtn}>
           <i className="bi bi-display"></i> Share Screen
         </button>
-        <button style={{ ...controlBtn, backgroundColor: "red" }}>
+        <button style={{ ...controlBtn, backgroundColor: "red", color: "white" }}>
           <i className="bi bi-box-arrow-right"></i> Leave
         </button>
       </div>
