@@ -24,9 +24,13 @@ const InstructorSidebar = ({ isOpen, setIsOpen }) => {
       >
         <i className="bi bi-house-door"></i> {isOpen && " Dashboard"}
       </button>
-      <button className="btn btn-primary w-100 my-3">
-        <i className="bi bi-camera-video"></i> {isOpen && " Start Session"}
-      </button>
+          <button
+      className="btn btn-primary w-100 my-3"
+      onClick={() => navigate("/classroom")}
+    >
+      <i className="bi bi-camera-video"></i> {isOpen && " Start Session"}
+    </button>
+
       <ul className="nav flex-column mt-3">
         <li className="nav-item">
           <Link to="/instructor/teacher-courses" className="nav-link text-white">

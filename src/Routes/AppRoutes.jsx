@@ -36,7 +36,8 @@ import StudentLayout from "../Layouts/StudentLayout";
 import StudentDashboard from "../pages/Student/StudentDashboard";
 import MyCourses from "../pages/Student/MyCourses";
 import MyTeachers from "../pages/Student/MyTeachers";
-import Classroom from "./pages/Instructor/Classroom";
+import Classroom from "../pages/instructor/Classroom";
+
 const AppRoutes = () => {
   return (
     <Router>
