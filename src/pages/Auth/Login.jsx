@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
 
 const Login = () => {
   const [userName, setUserName] = useState("");  
@@ -11,30 +10,11 @@ const Login = () => {
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    try {
-      const response = await axios.post("https://localhost:7145/Auth/Login", {
-        userName,
-        password
-      });
-
-      const { token, role } = response.data;
-      sessionStorage.setItem("token", token);
-      sessionStorage.setItem("role", role);
-
-      if (role === "Admin") {
-        navigate("/admin");
-      } else if (role === "Coordinator") {
-        navigate("/coordinator-dashboard");
-      } else if (role === "Teacher") {
-        navigate("/instructor");
-      } else if (role === "Student") {
-        navigate("/student");
-      } else {
-        setError("Invalid role assigned.");
-      }
-    } catch (err) {
-      setError("Invalid credentials");
-    }
+    const token = "dummy-token";
+    const role = "Teacher";
+    sessionStorage.setItem("token", token);
+    sessionStorage.setItem("role", role);
+    navigate("/instructor");
   };
 
   return (
@@ -62,19 +42,18 @@ const Login = () => {
           textAlign: "center"
         }}
       >
-        
         <img
-         src="/logos/finalbg.png"
-  alt="ClassPulse Logo"
-  style={{
-          width: "120px",
-          height: "120px",         
-          marginBottom: "15px",
-          backgroundColor: "rgba(255, 255, 255, 0.2)", 
-          borderRadius: "50%",             
-          boxShadow: "0 4px 15px rgba(0,0,0,0.3)", 
-          objectFit: "cover"     
-  }}
+          src="/logos/finalbg.png"
+          alt="ClassPulse Logo"
+          style={{
+            width: "120px",
+            height: "120px",         
+            marginBottom: "15px",
+            backgroundColor: "rgba(255, 255, 255, 0.2)", 
+            borderRadius: "50%",             
+            boxShadow: "0 4px 15px rgba(0,0,0,0.3)", 
+            objectFit: "cover"     
+          }}
         />
 
         <h3 style={{ marginBottom: "20px" }}>Welcome Back</h3>
