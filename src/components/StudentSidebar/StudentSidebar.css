@@ -1,0 +1,23 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #152c44;
+  color: white;
+  padding: 15px;
+  overflow-y: auto;
+  transition: width 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.sidebar.closed {
+  width: 70px;
+  overflow: hidden;
+}
+.sidebar.closed .nav-link,
+.sidebar.closed .home-btn{
+     justify-content: flex-end;
+  padding: 10px 15px;
+}

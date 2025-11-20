@@ -1,0 +1,62 @@
+/* InstructorSidebar.css */
+.sidebar {
+  width: 250px;
+  transition: width 0.3s ease-in-out;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #152c44;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.sidebar.closed {
+  width: 70px;
+}
+
+.btn-primary {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.toggle-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.logout-btn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  transition: all 0.3s ease-in-out;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar.closed .nav-link span,
+.sidebar.closed .btn-primary span,
+.sidebar.closed .logout-btn span {
+  display: none;
+}

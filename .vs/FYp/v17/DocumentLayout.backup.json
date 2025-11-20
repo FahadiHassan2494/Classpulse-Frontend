@@ -1,0 +1,889 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dambr\\source\\repos\\FYp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\admin\\addcoordinators.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\admin\\addcoordinators.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\models\\dto\\coordinatordropdowndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\models\\dto\\coordinatordropdowndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\dto\\coordinatoruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\dto\\coordinatoruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\dto\\coordinatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\dto\\coordinatordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\entities\\coordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\entities\\coordinator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\dto\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\dto\\departmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\dto\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\data\\fypdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\data\\fypdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\shared\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\shared\\enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\shared\\_coordinatorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\shared\\_coordinatorlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\admin\\adddepartments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\admin\\adddepartments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\shared\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\shared\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250311114227_enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FYP.API\\Migrations\\20250311114227_enum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\fyp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\fyp.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\admin\\registercoordinator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\admin\\registercoordinator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\admin\\viewdeparments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\admin\\viewdeparments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250311111302_AddCoordinatorTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FYP.API\\Migrations\\20250311111302_AddCoordinatorTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\models\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\models\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\shared\\_coordinatorpartialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\shared\\_coordinatorpartialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\coordinator\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\coordinator\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\shared\\_footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\shared\\_footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\views\\admin\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\views\\admin\\viewusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\migrations\\20250225141622_adddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\migrations\\20250225141622_adddepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\models\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\models\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADC7C2FC-ABD5-464B-9977-0EC401C7BBE8}|FYP.Web\\FYP.Web.csproj|solutionrelative:fyp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225141543_addDepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FYP.API\\Migrations\\20250225141543_addDepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225141434_addDepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FYP.API\\Migrations\\20250225141434_addDepartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140249_adminSeeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FYP.API\\Migrations\\20250225140249_adminSeeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140107_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FYP.API\\Migrations\\20250225140107_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\fyp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\fyp.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\migrations\\20250225140441_adminseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\migrations\\20250225140441_adminseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\migrations\\20250225140222_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\migrations\\20250225140222_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\migrations\\20250225132654_addrefreshtokkens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\migrations\\20250225132654_addrefreshtokkens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\migrations\\20250225124638_adduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\migrations\\20250225124638_adduserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|c:\\users\\dambr\\source\\repos\\fyp\\fyp.api\\migrations\\20250225115636_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3436101C-6DBA-40EE-AD69-26D9F00827EC}|FYP.API\\FYP.API.csproj|solutionrelative:fyp.api\\migrations\\20250225115636_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FYP.API\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAA3wEAAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:06:35.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoordinatorDropDownDto.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Models\\DTO\\CoordinatorDropDownDto.cs",
+              "RelativeDocumentMoniker": "FYP.Web\\Models\\DTO\\CoordinatorDropDownDto.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Models\\DTO\\CoordinatorDropDownDto.cs",
+              "RelativeToolTip": "FYP.Web\\Models\\DTO\\CoordinatorDropDownDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T12:54:40.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CoordinatorController.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Controllers\\CoordinatorController.cs",
+              "RelativeDocumentMoniker": "FYP.Web\\Controllers\\CoordinatorController.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Controllers\\CoordinatorController.cs",
+              "RelativeToolTip": "FYP.Web\\Controllers\\CoordinatorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:09:29.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FYP.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FYP.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAUwK4AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:54:51.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCoordinators.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\AddCoordinators.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Admin\\AddCoordinators.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\AddCoordinators.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Admin\\AddCoordinators.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwGAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T11:28:58.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\DTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\UserDto.cs",
+              "RelativeToolTip": "FYP.API\\Models\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:05:56.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "FYP.API\\Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:04:48.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswD8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T10:45:49.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoordinatorDto.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\CoordinatorDto.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\DTO\\CoordinatorDto.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\CoordinatorDto.cs",
+              "RelativeToolTip": "FYP.API\\Models\\DTO\\CoordinatorDto.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwCgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:02:29.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CoordinatorUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\CoordinatorUserDto.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\DTO\\CoordinatorUserDto.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\CoordinatorUserDto.cs",
+              "RelativeToolTip": "FYP.API\\Models\\DTO\\CoordinatorUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T16:34:19.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Coordinator.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\Entities\\Coordinator.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\Entities\\Coordinator.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\Entities\\Coordinator.cs",
+              "RelativeToolTip": "FYP.API\\Models\\Entities\\Coordinator.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:05:23.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DepartmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\DepartmentDto.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\DTO\\DepartmentDto.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\DepartmentDto.cs",
+              "RelativeToolTip": "FYP.API\\Models\\DTO\\DepartmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:08:39.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\DTO\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\DTO\\AuthResponseDto.cs",
+              "RelativeToolTip": "FYP.API\\Models\\DTO\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T07:16:44.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Services\\AuthService.cs",
+              "RelativeToolTip": "FYP.API\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowFgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:58:43.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Enum.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Shared\\Enum.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Shared\\Enum.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Shared\\Enum.cs",
+              "RelativeToolTip": "FYP.API\\Shared\\Enum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:38:16.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FYPDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Data\\FYPDbContext.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Data\\FYPDbContext.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Data\\FYPDbContext.cs",
+              "RelativeToolTip": "FYP.API\\Data\\FYPDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:50:00.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\Entities\\Department.cs",
+              "RelativeToolTip": "FYP.API\\Models\\Entities\\Department.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:07:25.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddDepartments.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\AddDepartments.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Admin\\AddDepartments.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\AddDepartments.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Admin\\AddDepartments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T13:04:00.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_CoordinatorLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_CoordinatorLayout.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Shared\\_CoordinatorLayout.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_CoordinatorLayout.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Shared\\_CoordinatorLayout.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T15:38:10.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T11:15:29.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_SidebarPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_SidebarPartial.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Shared\\_SidebarPartial.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_SidebarPartial.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Shared\\_SidebarPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T11:18:31.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T10:54:32.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ViewDeparments.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\ViewDeparments.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Admin\\ViewDeparments.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\ViewDeparments.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Admin\\ViewDeparments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T11:48:26.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RegisterCoordinator.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\RegisterCoordinator.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Admin\\RegisterCoordinator.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\RegisterCoordinator.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Admin\\RegisterCoordinator.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T13:45:13.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250311114227_enum.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250311114227_enum.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250311114227_enum.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250311114227_enum.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250311114227_enum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:42:27.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250311111302_AddCoordinatorTable.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250311111302_AddCoordinatorTable.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250311111302_AddCoordinatorTable.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250311111302_AddCoordinatorTable.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250311111302_AddCoordinatorTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T11:13:02.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FYP.API.csproj",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\FYP.API.csproj",
+              "RelativeDocumentMoniker": "FYP.API\\FYP.API.csproj",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\FYP.API.csproj",
+              "RelativeToolTip": "FYP.API\\FYP.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T11:04:34.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Models\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Models\\Entities\\Admin.cs",
+              "RelativeToolTip": "FYP.API\\Models\\Entities\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:55:12.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Coordinator\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Coordinator\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Coordinator\\Dashboard.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Coordinator\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T11:09:49.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_CoordinatorPartialSidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_CoordinatorPartialSidebar.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Shared\\_CoordinatorPartialSidebar.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_CoordinatorPartialSidebar.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Shared\\_CoordinatorPartialSidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T15:41:47.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_FooterPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_FooterPartial.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Shared\\_FooterPartial.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Shared\\_FooterPartial.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Shared\\_FooterPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T11:19:03.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FYP.Web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FYP.Web\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwCUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:45:16.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ViewUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\ViewUsers.cshtml",
+              "RelativeDocumentMoniker": "FYP.Web\\Views\\Admin\\ViewUsers.cshtml",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Views\\Admin\\ViewUsers.cshtml",
+              "RelativeToolTip": "FYP.Web\\Views\\Admin\\ViewUsers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T15:17:21.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250225141622_addDepartment.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225141622_addDepartment.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225141622_addDepartment.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225141622_addDepartment.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225141622_addDepartment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:16:22.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Models\\ViewModel.cs",
+              "RelativeDocumentMoniker": "FYP.Web\\Models\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Models\\ViewModel.cs",
+              "RelativeToolTip": "FYP.Web\\Models\\ViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:37:42.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Services\\IAuthService.cs",
+              "RelativeToolTip": "FYP.API\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:58:29.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FYP.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:06:27.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Program.cs",
+              "RelativeDocumentMoniker": "FYP.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.Web\\Program.cs",
+              "RelativeToolTip": "FYP.Web\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T10:46:36.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Program.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Program.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Program.cs",
+              "RelativeToolTip": "FYP.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:03:41.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FYP.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\appsettings.json",
+              "RelativeToolTip": "FYP.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T11:10:34.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FYP.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FYP.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T11:11:34.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20250225141543_addDepartment.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225141543_addDepartment.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225141543_addDepartment.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225141543_addDepartment.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225141543_addDepartment.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:15:43.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250225141434_addDepartment.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225141434_addDepartment.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225141434_addDepartment.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225141434_addDepartment.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225141434_addDepartment.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:14:34.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20250225140441_adminSeeding.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140441_adminSeeding.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225140441_adminSeeding.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140441_adminSeeding.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225140441_adminSeeding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:04:41.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250225140249_adminSeeding.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140249_adminSeeding.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225140249_adminSeeding.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140249_adminSeeding.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225140249_adminSeeding.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:02:50.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250225140222_user.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140222_user.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225140222_user.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140222_user.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225140222_user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:02:22.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250225140107_user.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140107_user.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225140107_user.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225140107_user.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225140107_user.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:01:07.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250225132654_AddRefreshTokkens.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225132654_AddRefreshTokkens.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225132654_AddRefreshTokkens.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225132654_AddRefreshTokkens.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225132654_AddRefreshTokkens.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:26:54.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "20250225124638_AddUserRole.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225124638_AddUserRole.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225124638_AddUserRole.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225124638_AddUserRole.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225124638_AddUserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T12:46:38.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20250225115636_init.cs",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225115636_init.cs",
+              "RelativeDocumentMoniker": "FYP.API\\Migrations\\20250225115636_init.cs",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\Migrations\\20250225115636_init.cs",
+              "RelativeToolTip": "FYP.API\\Migrations\\20250225115636_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T11:56:36.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FYP.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\appsettings.Development.json",
+              "RelativeToolTip": "FYP.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T11:10:37.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "FYP.API.http",
+              "DocumentMoniker": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\FYP.API.http",
+              "RelativeDocumentMoniker": "FYP.API\\FYP.API.http",
+              "ToolTip": "C:\\Users\\dambr\\source\\repos\\FYp\\FYP.API\\FYP.API.http",
+              "RelativeToolTip": "FYP.API\\FYP.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-25T11:10:31.686Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
