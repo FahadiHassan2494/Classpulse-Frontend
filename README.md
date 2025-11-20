@@ -1,12 +1,23 @@
-# React + Vite
+# ClassPulse: Online Student Engagement Analyzer (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of ClassPulse — a web-based platform that monitors real-time student engagement using AI and computer vision.  
+Built using React, Vite, Bootstrap, and .NET backend APIs.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Instructor, Coordinator, Admin dashboards
+- Start session & student join system
+- Real-time behavior and engagement tracking
+- Reports & analytics
+- Role-based login (via ASP.NET)
+- Student/course management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Tech Stack
+- **Frontend:** React + Vite, Bootstrap
+- **Backend:** ASP.NET Web API
+- **Real-time:** SignalR + WebRTC
+- **Deployment:** Vercel
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+```bash
+npm install
+npm run dev
