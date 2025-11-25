@@ -6,8 +6,11 @@ const JoinSession = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Redirect to login with student role and roomId
-    navigate(`/login?role=student&room=${sessionId}`);
+    // Save sessionId in storage
+    sessionStorage.setItem("joinRoomId", sessionId);
+
+    // Navigate to login page without auto redirect
+    navigate(`/login?role=student`);
   }, [sessionId, navigate]);
 
   return (
