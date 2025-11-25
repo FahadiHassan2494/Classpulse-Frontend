@@ -6,16 +6,16 @@ export default function Classroom() {
   const [micOn, setMicOn] = useState(true);
   const [cameraOn, setCameraOn] = useState(true);
 
-  const myVideoRef = useRef(null);
-
-  // For now static participants list — later it will come from SignalR
+  // For dynamic participant videos
   const [participants, setParticipants] = useState([
     { id: "me", name: "Instructor (You)", stream: null },
     { id: "1", name: "Student A", stream: null },
     { id: "2", name: "Student B", stream: null },
   ]);
 
-  // Step 1 — Request Camera + Microphone Permissions
+  const myVideoRef = useRef(null);
+
+  // Request Camera + Microphone Permissions
   useEffect(() => {
     async function enableMedia() {
       try {
@@ -25,9 +25,16 @@ export default function Classroom() {
         });
 
         setMyStream(stream);
+
+        // Attach stream to instructor's video element
         if (myVideoRef.current) {
           myVideoRef.current.srcObject = stream;
         }
+
+        // Update participants list with instructor stream
+        setParticipants((prev) =>
+          prev.map((p) => (p.id === "me" ? { ...p, stream } : p))
+        );
       } catch (error) {
         alert("Camera/Microphone access denied.");
         console.error("Permission Error:", error);
@@ -37,21 +44,17 @@ export default function Classroom() {
     enableMedia();
   }, []);
 
-  // ⭐ Mute/Unmute Microphone
+  // Toggle Microphone
   const toggleMic = () => {
     if (!myStream) return;
-    myStream.getAudioTracks().forEach((track) => {
-      track.enabled = !track.enabled;
-    });
+    myStream.getAudioTracks().forEach((track) => (track.enabled = !track.enabled));
     setMicOn(!micOn);
   };
 
-  // ⭐ Turn Camera ON/OFF
+  // Toggle Camera
   const toggleCamera = () => {
     if (!myStream) return;
-    myStream.getVideoTracks().forEach((track) => {
-      track.enabled = !track.enabled;
-    });
+    myStream.getVideoTracks().forEach((track) => (track.enabled = !track.enabled));
     setCameraOn(!cameraOn);
   };
 
@@ -61,7 +64,6 @@ export default function Classroom() {
       {/* Sidebar */}
       <div className="sidebar d-none d-md-flex flex-column p-3 shadow-sm">
         <h5 className="fw-bold mb-3">Participants</h5>
-
         {participants.map((p) => (
           <div key={p.id} className="participant-item d-flex align-items-center mb-2">
             <div className="circle me-2"></div>
@@ -79,24 +81,23 @@ export default function Classroom() {
           <button className="btn btn-outline-danger btn-sm">End Session</button>
         </div>
 
-        {/* Dynamic Video Grid */}
+        {/* Video Grid */}
         <div className="video-area flex-grow-1">
-          <div
-            className="video-grid"
-            style={{
-              gridTemplateColumns: `repeat(${Math.min(participants.length, 4)}, 1fr)`,
-            }}
-          >
-            {/* Instructor Video */}
-            <div className="video-box shadow-sm">
-              <video ref={myVideoRef} autoPlay playsInline muted />
-              <p className="video-name">You (Instructor)</p>
-            </div>
-
-            {/* Other Student Streams → later will use WebRTC */}
-            {participants.slice(1).map((p) => (
+          <div className="video-grid">
+            {participants.map((p) => (
               <div key={p.id} className="video-box shadow-sm">
-                <div className="fake-video"></div>
+                {p.stream ? (
+                  <video
+                    autoPlay
+                    playsInline
+                    muted={p.id === "me"} // instructor muted self
+                    ref={(el) => {
+                      if (el) el.srcObject = p.stream;
+                    }}
+                  />
+                ) : (
+                  <div className="fake-video" />
+                )}
                 <p className="video-name">{p.name}</p>
               </div>
             ))}
@@ -105,7 +106,6 @@ export default function Classroom() {
 
         {/* Bottom Controls */}
         <div className="controls-bar d-flex justify-content-center gap-4 py-3">
-
           <button
             className="control-btn btn btn-light shadow-sm p-3 rounded-circle"
             onClick={toggleMic}

@@ -32,6 +32,7 @@
 
 .video-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 10px;
   width: 100%;
   height: 100%;
@@ -39,30 +40,32 @@
 
 /* Each Video Box */
 .video-box {
-  background: #000;
-  border-radius: 12px;
   position: relative;
+  background-color: #000;
+  border-radius: 10px;
   overflow: hidden;
-  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-video,
+video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: black;
+}
 .fake-video {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 120px;
+  background-color: #222;
+  border-radius: 10px;
 }
-
-.fake-video {
-  background: #333;
-}
-
 .video-name {
-  position: absolute;
-  bottom: 6px;
-  left: 10px;
-  color: #fff;
+  color: white;
   font-size: 14px;
+  margin-top: 4px;
 }
 
 /* Controls */
