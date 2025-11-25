@@ -1,6 +1,6 @@
 // Classroom.jsx
 import React from "react";
-import "./classroom.css";
+import "./Classroom.css";
 
 export default function Classroom() {
   return (
