@@ -1,12 +1,24 @@
-
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-
 const InstructorSidebar = ({ isOpen, setIsOpen }) => {
   const navigate = useNavigate();
+
+  // 🔥 Start Session handler
+  const startSession = () => {
+    // Generate a simple session ID
+    const sessionId = Math.random().toString(36).substring(2, 8).toUpperCase();
+
+    // Redirect instructor to classroom
+    navigate(`/classroom?room=${sessionId}`);
+
+    // Copy join link for students
+    const joinLink = `${window.location.origin}/join/${sessionId}`;
+    navigator.clipboard.writeText(joinLink);
+    alert(`Session started!\nStudent join link copied to clipboard:\n${joinLink}`);
+  };
 
   return (
     <div
@@ -18,18 +30,22 @@ const InstructorSidebar = ({ isOpen, setIsOpen }) => {
           <i className={isOpen ? "bi bi-chevron-left" : "bi bi-list"}></i>
         </button>
       </div>
+
+      {/* Dashboard */}
       <button
         className="btn btn-primary w-100 my-3"
         onClick={() => navigate("/instructor")}
       >
         <i className="bi bi-house-door"></i> {isOpen && " Dashboard"}
       </button>
-          <button
-      className="btn btn-primary w-100 my-3"
-      onClick={() => navigate("/classroom")}
-    >
-      <i className="bi bi-camera-video"></i> {isOpen && " Start Session"}
-    </button>
+
+      {/* 🔥 Start Session */}
+      <button
+        className="btn btn-primary w-100 my-3"
+        onClick={startSession}
+      >
+        <i className="bi bi-camera-video"></i> {isOpen && " Start Session"}
+      </button>
 
       <ul className="nav flex-column mt-3">
         <li className="nav-item">
@@ -48,6 +64,7 @@ const InstructorSidebar = ({ isOpen, setIsOpen }) => {
           </Link>
         </li>
       </ul>
+
       <button
         className="logout-btn"
         onClick={() => {

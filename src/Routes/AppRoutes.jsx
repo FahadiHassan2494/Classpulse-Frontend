@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "../pages/Auth/Login";
 import Register from "../pages/Auth/Register";
+import JoinSession from "../pages/Classroom/JoinSession";
 
 import ChangePassword from "../pages/Auth/ChangePassword";
 
@@ -36,7 +37,7 @@ import StudentLayout from "../Layouts/StudentLayout";
 import StudentDashboard from "../pages/Student/StudentDashboard";
 import MyCourses from "../pages/Student/MyCourses";
 import MyTeachers from "../pages/Student/MyTeachers";
-import Classroom from "../pages/instructor/Classroom";
+import Classroom from "../pages/Classroom/Classroom";
 
 const AppRoutes = () => {
   return (
@@ -44,6 +45,7 @@ const AppRoutes = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/join/:sessionId" element={<JoinSession />} />
         
 
         <Route element={<PrivateRoute />}>

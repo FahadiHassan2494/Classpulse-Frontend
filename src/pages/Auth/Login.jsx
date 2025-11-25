@@ -1,20 +1,48 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Form, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const Login = () => {
   const [userName, setUserName] = useState("");  
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
+
   const navigate = useNavigate();
+  const location = useLocation();
+
+  // 🔥 Detect if user came from /join/:sessionId
+  const searchParams = new URLSearchParams(location.search);
+  const roomId = searchParams.get("room");  // ex: ABC123
+  const loginAs = searchParams.get("role"); // "student" or "instructor"
 
   const handleLogin = async (e) => {
     e.preventDefault();
-    const token = "dummy-token";
-    const role = "Teacher";
-    sessionStorage.setItem("token", token);
-    sessionStorage.setItem("role", role);
-    navigate("/instructor");
+
+    // Instructor login (existing hardcoded logic)
+    if (loginAs === "instructor" || userName === "instructor") {
+      sessionStorage.setItem("token", "dummy-token");
+      sessionStorage.setItem("role", "Teacher");
+      navigate("/instructor");
+      return;
+    }
+
+    // 🔥 Student login (from join link)
+    if (loginAs === "student") {
+      sessionStorage.setItem("token", "dummy-token");
+      sessionStorage.setItem("role", "Student");
+
+      // If room exists → go directly to classroom
+      if (roomId) {
+        navigate(`/classroom?room=${roomId}`);
+        return;
+      }
+
+      navigate("/student");
+      return;
+    }
+
+    // default login fallback
+    setError("Invalid login source.");
   };
 
   return (
@@ -36,7 +64,7 @@ const Login = () => {
           borderRadius: "20px",
           background: "rgba(255, 255, 255, 0.1)",
           backdropFilter: "blur(12px)",
-          WebkitBackdropFilter: "blur(12px)", 
+          WebkitBackdropFilter: "blur(12px)",
           boxShadow: "0 8px 30px rgba(0,0,0,0.3)",
           color: "white",
           textAlign: "center"
@@ -47,16 +75,22 @@ const Login = () => {
           alt="ClassPulse Logo"
           style={{
             width: "120px",
-            height: "120px",         
+            height: "120px",
             marginBottom: "15px",
-            backgroundColor: "rgba(255, 255, 255, 0.2)", 
-            borderRadius: "50%",             
-            boxShadow: "0 4px 15px rgba(0,0,0,0.3)", 
-            objectFit: "cover"     
+            backgroundColor: "rgba(255, 255, 255, 0.2)",
+            borderRadius: "50%",
+            boxShadow: "0 4px 15px rgba(0,0,0,0.3)",
+            objectFit: "cover"
           }}
         />
 
         <h3 style={{ marginBottom: "20px" }}>Welcome Back</h3>
+
+        {roomId && (
+          <p style={{ color: "#fff", marginBottom: "10px" }}>
+            Joining session: <strong>{roomId}</strong>
+          </p>
+        )}
 
         <Form onSubmit={handleLogin}>
           <Form.Group className="mb-3">
