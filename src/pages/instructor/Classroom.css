@@ -1,0 +1,65 @@
+/* Main Layout */
+.meeting-container {
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: #ffffff;
+  border-right: 1px solid #eee;
+}
+
+.participant-item .circle {
+  width: 12px;
+  height: 12px;
+  background: #4caf50;
+  border-radius: 50%;
+}
+
+/* Top Bar */
+.top-bar {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+/* Video Area */
+.video-area {
+  background: #1c1f2e;
+}
+
+.video-box {
+  width: 90%;
+  height: 70%;
+  max-width: 900px;
+  border-radius: 12px;
+  background: #222535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Controls */
+.controls-bar .control-btn {
+  width: 60px;
+  height: 60px;
+  font-size: 22px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none !important;
+  }
+
+  .video-box {
+    height: 55%;
+    width: 95%;
+  }
+
+  .controls-bar .control-btn {
+    width: 50px;
+    height: 50px;
+  }
+}
