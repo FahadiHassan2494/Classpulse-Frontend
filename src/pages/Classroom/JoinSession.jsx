@@ -6,8 +6,9 @@ const JoinSession = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Save sessionId temporarily in sessionStorage
-    sessionStorage.setItem("joinRoomId", sessionId);
+   sessionStorage.setItem("joinRoomId", sessionId);
+   navigate(`/login?role=student`);
+
 
     // Navigate to login page for student
     navigate(`/login?role=student`);
