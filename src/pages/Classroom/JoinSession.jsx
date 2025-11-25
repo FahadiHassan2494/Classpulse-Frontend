@@ -6,10 +6,10 @@ const JoinSession = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Save sessionId in storage
+    // Save sessionId temporarily in sessionStorage
     sessionStorage.setItem("joinRoomId", sessionId);
 
-    // Navigate to login page without auto redirect
+    // Navigate to login page for student
     navigate(`/login?role=student`);
   }, [sessionId, navigate]);
 

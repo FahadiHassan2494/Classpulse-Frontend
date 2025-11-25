@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -10,9 +10,9 @@ const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  // Parse query params (role)
+  // Parse query params
   const searchParams = new URLSearchParams(location.search);
-  const loginAs = searchParams.get("role") || "Teacher"; // default to instructor
+  const loginAs = searchParams.get("role") || "Teacher";
 
   // Hardcoded credentials
   const validStudents = [
@@ -25,7 +25,6 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    // ------------------ Student Login ------------------
     if (loginAs.toLowerCase() === "student") {
       const student = validStudents.find(
         (s) => s.username === userName && s.password === password
@@ -47,11 +46,9 @@ const Login = () => {
         return;
       }
 
-      // Otherwise fallback
       navigate("/student");
     }
 
-    // ------------------ Instructor Login ------------------
     if (loginAs.toLowerCase() === "teacher") {
       if (userName !== validInstructor.username || password !== validInstructor.password) {
         setError("Invalid instructor username or password");
